@@ -43,12 +43,13 @@ The last step
 ## Flowchart Tasks:
 
 #### Fizzbuzz
-* starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz" 
+* starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz"
+~~~
 ----------------------------
 Start set initial value at 1
 ----------------------------
-        |-----------------------------++--+   
-        V                             ||  ^ 
+        |---------------------------------+   
+        v                             ||  ^ 
 ----------------------------          ^|  |
 Increase Value by 1                   ||  |
 ----------------------------          ||  |
@@ -74,8 +75,9 @@ Increase Value by 1                   ||  |
         v                                 |
  -------------                            | 
  Print value   -->------------------------+
- -------------       
-#### Determin a students letter grade when given the %.
+ -------------  
+ ~~~
+#### Determine a students letter grade when given the %.
 
 #### Convert a tempature from C to F or vice versa.
 
