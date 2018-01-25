@@ -45,6 +45,11 @@ The last step
 #### Fizzbuzz
 * starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz"
 ~~~
+----------
+Start
+----------
+        |
+        v
 ----------------------------
 Start set initial value at 1
 ----------------------------
@@ -76,9 +81,19 @@ Increase Value by 1                   ||  |
  -------------                            | 
  Print value   -->------------------------+
  -------------  
+        |
+        v
+-----------
+END
+------------
  ~~~
 #### Determine a students letter grade when given the %.
 ~~~
+----------
+Start
+----------
+        |
+        v
 ---------------------------------
 Enter Students Percentage Grade %
 ---------------------------------
@@ -124,9 +139,19 @@ Enter Students Percentage Grade %
  -------------                            
  Print F   
  ------------- 
+        |
+        v
+-----------
+END
+------------
 ~~~
 #### Convert a tempature from C to F or vice versa.
 ~~~
+----------
+Start
+----------
+        |
+        v
 ------------------------------
 Insert Temperature Value
 ------------------------------
@@ -147,9 +172,19 @@ Value subtract 32 multiply 5/9
 --------------------
 Print "New Value" "C"
 ---------------------
+        |
+        v
+-----------
+END
+------------
 ~~~
 #### When given three numbers return the largest of them
 ~~~
+----------
+Start
+----------
+        |
+        v
 ---------------------------------
 Assign first number as a
 assign second number as b
@@ -180,6 +215,11 @@ assign third number as c
  -------------                            
  Print c  
  ------------- 
+        |
+        v
+-----------
+END
+------------
 ~~~
 
 #### The game of Nim:
@@ -189,13 +229,58 @@ assign third number as c
 * The person who takes the last stone from the last remaining pile looses.
   
 1. Create a flow chart for the optimal move for a player if there is only one pile.
+~~~
+-------------------------
+Insert the amount of stones
+---------------------------
+
+~~~
 1. Create a flow chart for the optimal move for a player if there are exatly two piles.
 1. Can you merge these together to create a flowchart for an optimal move if there are two or less piles?  Please do so, if yes.
 1. What about if there are any number of piles.
 
 #### Find the sum of the first 100 numbers
 1. modify this to find the sum of the next 100 numbers when given a starting value.
+~~~
+----------
+Start
+----------
+        |
+        v
+-----------------------
+Insert  initial value=n
+-----------------------
+        |<------------------------------+
+        v                               ^
+----------------------                  |
+set i=0                                 |
+----------------------                  |
+        |                               |
+        v                               |
+---------------                         |
+increase i by 1                         |
+---------------                         |
+       / \                              |
+      /   \                 Yes +-------+-----------------------------+
+/  Is i less     \ -----------> |n+(n+1)=n                            |
+                                |add initial value to initial value +1|
+\  than 100      /              +-------------------------------------+  
+              
+      \   /
+       \ /
+        |
+        |No
+        v
+---------------
+Print n
+---------------
+        |
+        v
+------------
+END
+--------------
 
+~~~
 #### Find the nth fibonaci number
 * The 0th and the 1st fibonaci numbers are both 1.
 * All other fibonaci numbers equal the sum of the two before it.
