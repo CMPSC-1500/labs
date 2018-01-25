@@ -32,7 +32,8 @@ This is the first step   <-----+
    a Monday
       \   /
        \ /
-        | No
+        |
+        |No
         v
 ---------------------
 The last step
@@ -43,7 +44,37 @@ The last step
 
 #### Fizzbuzz
 * starting at one and incrementing by one to a number that is given, print out either the number, or if the number is divisible by 2, print "Fizz", and if the number is divisible by 3 print "Buzz" 
-
+----------------------------
+Start set initial value at 1
+----------------------------
+        |-----------------------------++--+   
+        V                             ||  ^ 
+----------------------------          ^|  |
+Increase Value by 1                   ||  |
+----------------------------          ||  |
+        |                             |^  | 
+        V                             ||  ^
+       / \                            ||  |
+      /   \                           ||  |
+     /     \                      Yes ||  |        ____________
+/  Is value divisble by 2 \-----------+|--|-----|Print "Fizz"|
+\                         /            |  |      |____________|
+      \   /                            |  ^
+       \ /                             ^  |
+        |No                            |  |
+        V                              |  |
+       / \                             |  |
+      /   \                            |  | 
+     /     \                       Yes |  ^         ____________
+/  Is value divisble by 3 \----------- +--|------>|Print "Buzz"|
+\                         /               |       |____________|
+      \   /                               |
+       \ /                                ^
+        |No                               |
+        v                                 |
+ -------------                            | 
+ Print value   -->------------------------+
+ -------------       
 #### Determin a students letter grade when given the %.
 
 #### Convert a tempature from C to F or vice versa.
