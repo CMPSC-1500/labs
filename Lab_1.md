@@ -93,6 +93,7 @@ Enter Students Percentage Grade %
         |
         |No
         v
+       / \
       /   \                  Yes +------------+
 /  Is value greater     \ ----->|Print  B     |
 \  than or equal to 80  /       +------------+
@@ -147,7 +148,39 @@ Value subtract 32 multiply 5/9
 Print "New Value" "C"
 ---------------------
 ~~~
-#### When give three numbers return the largest of them
+#### When given three numbers return the largest of them
+~~~
+---------------------------------
+Assign first number as a
+assign second number as b
+assign third number as c
+---------------------------------
+        |   
+        v
+       / \                     
+      /   \                 Yes +------------+
+/  Is a greater     \ ----->    |Print  a    |
+\  than b and       /           +------------+  
+    greater c               
+      \   /
+       \ /
+        |
+        |No
+        v
+       / \                     
+      /   \                 Yes +------------+
+/  Is b greater     \ --------> |Print  b    |
+\  than a and       /           +------------+  
+    greater c               
+      \   /
+       \ /
+        |
+        |No
+        v
+ -------------                            
+ Print c  
+ ------------- 
+~~~
 
 #### The game of Nim:
 * This game is played between two players.
