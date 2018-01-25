@@ -57,8 +57,8 @@ Increase Value by 1                   ||  |
         V                             ||  ^
        / \                            ||  |
       /   \                           ||  |
-     /     \                      Yes ||  |        ____________
-/  Is value divisble by 2 \-----------+|--|-----|Print "Fizz"|
+     /     \                      Yes ||  |       ____________
+/  Is value divisble by 2 \-----------+|--|----- |Print "Fizz"|
 \                         /            |  |      |____________|
       \   /                            |  ^
        \ /                             ^  |
@@ -66,7 +66,7 @@ Increase Value by 1                   ||  |
         V                              |  |
        / \                             |  |
       /   \                            |  | 
-     /     \                       Yes |  ^         ____________
+     /     \                       Yes |  ^        ____________
 /  Is value divisble by 3 \----------- +--|------>|Print "Buzz"|
 \                         /               |       |____________|
       \   /                               |
@@ -78,9 +78,75 @@ Increase Value by 1                   ||  |
  -------------  
  ~~~
 #### Determine a students letter grade when given the %.
+~~~
+---------------------------------
+Enter Students Percentage Grade %
+---------------------------------
+        |   
+        v
+       / \                     
+      /   \                 Yes +------------+
+/  Is value greater     \ ----->|Print  A     |
+\  than or equal to 90  /       +------------+
+      \   /
+       \ /
+        |
+        |No
+        v
+      /   \                  Yes +------------+
+/  Is value greater     \ ----->|Print  B     |
+\  than or equal to 80  /       +------------+
+      \   /
+       \ /
+        |
+        |No
+        v
+       / \
+      /   \                Yes  +------------+
+/  Is value greater     \ ----->|Print  C     |
+\  than or equal to 70  /       +------------+
+      \   /
+       \ /
+        |
+        |No
+        v
+       / \
+      /   \                Yes  +------------+
+/  Is value greater     \ ----->|Print  D     |
+\  than or equal to 60  /       +------------+
+      \   /
+       \ /
+        |
+        |No
+        v
 
+ -------------                            
+ Print F   
+ ------------- 
+~~~
 #### Convert a tempature from C to F or vice versa.
-
+~~~
+------------------------------
+Insert Temperature Value
+------------------------------
+       / \
+      /   \                  Yes+------------------------+      +----------------- ---+
+/  Is value in Celisus  \ ----->|Value* multiply(9/5)+32 |----->|Print "New Value" "F"|
+\                       /       +------------------------+     +---------------------+  
+      \   /
+       \ /
+        |
+        |No
+        v
+-------------------------------
+Value subtract 32 multiply 5/9 
+--------------------------------
+        |
+        v
+--------------------
+Print "New Value" "C"
+---------------------
+~~~
 #### When give three numbers return the largest of them
 
 #### The game of Nim:
