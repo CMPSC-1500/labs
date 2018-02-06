@@ -343,7 +343,9 @@ Print n
 ------------
 END
 --------------
-
+n=initial value
+for (int i=0,i<101,i++){
+}
 ~~~
 #### Find the nth fibonaci number
 * The 0th and the 1st fibonaci numbers are both 1.
