@@ -51,7 +51,7 @@ Start
         |
         v
 ----------------------------
-Start set initial value at 1
+Start set initial value at 0
 ----------------------------
         |---------------------------------+   
         v                             ||  ^ 
@@ -87,6 +87,23 @@ Increase Value by 1                   ||  |
 END
 ------------
  ~~~
+Integer n =number
+for (int i=0,i>=n,i++)
+{
+ if (n%6==0) {
+        print "Fizz Buzz"
+        }
+ else if (n%2==0){
+        Print "Fizz"
+        }
+ else if (n%3==0){
+        Print "Buzz"
+        }
+ else{
+        Print n
+        }
+ }
+ 
 #### Determine a students letter grade when given the %.
 ~~~
 ----------
@@ -145,6 +162,23 @@ Enter Students Percentage Grade %
 END
 ------------
 ~~~
+gradePerc= grade value
+if(gradePerc > 89){
+        Print "A"
+        }
+else if (gradePerc > 79){
+        Print "B"
+        }
+else if (gradePerc > 69){
+        Print "C"
+        }
+else if (gradePerc > 59){
+        Print "D"
+        }
+else {
+        Print "F"
+        }
+
 #### Convert a tempature from C to F or vice versa.
 ~~~
 ----------
@@ -178,6 +212,17 @@ Print "New Value" "C"
 END
 ------------
 ~~~
+teMp = temperature value
+String x = Degrees in Celsius or Fahrenheit 
+if (x == Celsius){
+        n=teMp * (9/5)
+        newTemp= n+32
+        Print newTemp +"F"
+        }
+else{
+        w = teMp -32
+        newteMp = w*(5/9)
+        }
 #### When given three numbers return the largest of them
 ~~~
 ----------
