@@ -86,7 +86,7 @@ Increase Value by 1                   ||  |
 -----------
 END
 ------------
- ~~~
+
 Integer n =number
 for (int i=0,i>=n,i++)
 {
@@ -103,7 +103,7 @@ for (int i=0,i>=n,i++)
         Print n
         }
  }
- 
+ ~~~
 #### Determine a students letter grade when given the %.
 ~~~
 ----------
@@ -161,7 +161,7 @@ Enter Students Percentage Grade %
 -----------
 END
 ------------
-~~~
+
 gradePerc= grade value
 if(gradePerc > 89){
         Print "A"
@@ -178,7 +178,7 @@ else if (gradePerc > 59){
 else {
         Print "F"
         }
-
+~~~
 #### Convert a tempature from C to F or vice versa.
 ~~~
 ----------
@@ -211,7 +211,7 @@ Print "New Value" "C"
 -----------
 END
 ------------
-~~~
+
 teMp = temperature value
 String x = Degrees in Celsius or Fahrenheit 
 if (x == Celsius){
@@ -223,6 +223,7 @@ else{
         w = teMp -32
         newteMp = w*(5/9)
         }
+ ~~~
 #### When given three numbers return the largest of them
 ~~~
 ----------
