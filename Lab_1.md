@@ -59,6 +59,15 @@ Start set initial value at 0
 Increase Value by 1                   ||  |
 ----------------------------          ||  |
         |                             |^  | 
+        V 
+       / \                            ||  |
+      /   \                           ||  |
+     /     \                      Yes ||  |       ____________
+/  Is value divisble by 6 \-----------+|--|----- |Print "FizzBuzz"|
+\                         /           ||  |      |____________    |
+      \   /                           ||  ^
+       \ /                            |^  |
+        |No                           ||  |
         V                             ||  ^
        / \                            ||  |
       /   \                           ||  |
