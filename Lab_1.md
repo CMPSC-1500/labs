@@ -275,6 +275,21 @@ assign third number as c
 -----------
 END
 ------------
+
+a= first number
+b= second number 
+c= third number
+if (a>b && a>c){
+        Print a "Is the largest number"
+        }
+else if (b>a && b>c){
+        Print b "Is the largest number"
+else if (c>a && c>b){
+        Print c "Is the largest number"
+else{
+        Print "There are numbers that are equal"
+        }
+        
 ~~~
 
 #### The game of Nim:
